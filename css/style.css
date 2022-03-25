@@ -143,7 +143,7 @@ p{
     color: var(--text-black);
     display: inline-block;
 }
-.header-wrapper .nav-item .nav-link:active,
+.header-wrapper .nav-item .nav-link:active ,
 .header-wrapper .nav-item .nav-link:hover{
     color: var(--primary-text);
 }
@@ -157,7 +157,7 @@ p{
 }
 /* banner */
 .banner-wrapper{
-     padding-top: 6.875rem;
+     padding-top: 8rem;
      z-index: 1;
      background-image: url(../images/home-banner.png);
      background-repeat: no-repeat;
