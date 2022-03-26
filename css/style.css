@@ -178,3 +178,65 @@ p{
     background: var(--bg-black);
     overflow-x: hidden;
 }
+
+/* about */
+.about-wrapper .single-logo-item{
+    width: 100%;
+    height: 6.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 0.0625rem solid var(--bg-gray);
+    box-shadow: none;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+.about-wrapper .single-logo-item:hover{
+    border: 0.0625rem solid transparent;
+    box-shadow: 0 0.5rem 1.875rem rgb(118 85 225 / 15%);
+}
+
+.about-wrapper .client-info{
+    padding: 1.5625rem 1.875rem;
+    background: var(--bg-light);
+    position: relative;
+    margin-top: 1.5625rem;
+    margin-left: 8rem;
+}
+.about-wrapper .client-info::before{
+     content: '';
+    position: absolute;
+    top: 1.5625rem;
+    left: -3.4375rem;
+    background: url(../images/client-info.webp);
+    background-repeat: no-repeat;
+    height: 10.9375rem;
+    width: 10.9375rem;
+}
+.about-wrapper .client-info .large{
+    color: var(--secondary-text);
+    font-family: var(--primary-font);
+    font-size: 6.25rem;
+    position: relative;
+    z-index: 9;
+    font-weight: 700;
+}
+.about-wrapper .client-info .smll{
+    text-align: left;
+    color:var(--text-black);
+    font-family:var(--primary-font);
+    font-size:1.25rem;
+    font-weight:500;
+}
+.about-wrapper .client-info .call-now span{
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: var(--text-black);
+}
+.about-wrapper .client-info .call-now{
+    color: var(--secondary-text);
+    text-transform: uppercase;
+    margin-bottom: 0.315rem;
+}

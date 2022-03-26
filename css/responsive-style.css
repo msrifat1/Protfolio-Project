@@ -46,8 +46,25 @@
         font-size: 1.5625rem;
         line-height: 2.1875rem;
     }
+
+    /* about */
+    .about-wrapper .client-info:before{
+        top: 0.25rem;
+        left: 2.81rem;
+    }
+    .about-wrapper .client-info > div{
+        justify-content: center;
+    }
+
+
 }
 
 @media(max-width: 575px){
+   
+}
 
+@media(max-width:390px){
+    .banner-wrapper .banner-content h2::after{
+        left: 34%;
+    }
 }
