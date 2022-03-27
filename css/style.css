@@ -119,6 +119,9 @@ p{
 }
 
 /* navbar */
+.name{
+    color: var(--secondary-color);
+}
 
 
 .header-wrapper .navbar{
@@ -143,7 +146,9 @@ p{
     color: var(--text-black);
     display: inline-block;
 }
-.header-wrapper .nav-item .nav-link:active ,
+.header-wrapper .nav-item .nav-link:active{
+    color: var(--primary-text);
+}
 .header-wrapper .nav-item .nav-link:hover{
     color: var(--primary-text);
 }
@@ -235,8 +240,20 @@ p{
     font-weight: 700;
     color: var(--text-black);
 }
-.about-wrapper .client-info .call-now{
+.about-wrapper .client-info .call-now p{
     color: var(--secondary-text);
     text-transform: uppercase;
     margin-bottom: 0.315rem;
+}
+/* services */
+.services-wrapper .card{
+    background-color: var(--bg-light);
+    cursor: pointer;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+.services-wrapper .card:hover{
+    box-shadow: 0 0.9374rem 1.875rem rgb(77 87 222 / 30%);
+    background: var(--bg-white);
 }
